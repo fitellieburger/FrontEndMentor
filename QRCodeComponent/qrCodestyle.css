@@ -40,3 +40,17 @@ body {
   border: 1px solid #c7e0f5;
   border-radius: 1rem;
 }
+
+.centered-content h1,
+.centered-content p {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+/* Make the h1 visually stronger */
+.centered-content h1 {
+  font-weight: 700;           /* Bold */
+  letter-spacing: 0.5px;      /* Slight emphasis */
+  
+}
