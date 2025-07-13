@@ -35,7 +35,7 @@ body {
 
   max-width: 20vw;
   width: 20vw; /* Responsive width */
-  max-height: 3in;
+ 
 
   padding: .5rem;
   gap: 0.5rem;
@@ -50,13 +50,21 @@ body {
 .qr-code {
   display: block;
   
+  width: 100%;
+  max-width: 240px;
   max-width: 100%;            /* Responsive image */
-  max-height: 100%;          /* Maintain aspect ratio */
+  height: auto;  
   border-radius: 0.5rem; /* Rounded corners */
   aspect-ratio: 1 / 1;  /* keeps it square */
   object-fit: contain; /* keep whole image visible */
   margin-bottom: 0.25rem; /* visual space between image and text */
   flex-shrink: 1;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #333;
 }
 
 
@@ -66,7 +74,7 @@ body {
   font-size: 1rem;
   line-height: 1.4;
   color: #333;
-  max-height: calc(1.4em * 4); /* fits ~4 lines */
+  
   overflow: hidden;
   text-overflow: ellipsis;
 }
