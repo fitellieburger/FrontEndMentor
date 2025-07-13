@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: #81c1d1;
+  background-color: #9bc9d4;
   color: #333;
   padding: 1rem;
 }
@@ -34,8 +34,7 @@ body {
   /* Limit width roughly to a phone screen */
   max-width: 360px;       /* Typical phone screen width in CSS pixels */
   width: 90vw;            /* Responsive fallback: 90% of viewport width */
-  /* Limit height to about 3 inches */
-  max-height: 4.5in;   
+   
 
   align-items: center;
   justify-content: center;
