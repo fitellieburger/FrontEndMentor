@@ -81,6 +81,7 @@ body {
 
 /* Make the h1 visually stronger */
 .card-text h1 {
+  font-size: 1rem;
   font-weight: 700;           /* Bold */
   letter-spacing: 0.5px;      /* Slight emphasis */
   
