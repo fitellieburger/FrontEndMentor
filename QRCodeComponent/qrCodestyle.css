@@ -36,7 +36,7 @@ body {
   width: 90vw;            /* Responsive fallback: 90% of viewport width */
    
 
-  align-items: center;
+  align-items: top;
   justify-content: center;
   text-align: center;
 
@@ -53,6 +53,15 @@ body {
   width: 100%;            /* Responsive image */
   height: auto;          /* Maintain aspect ratio */
   border-radius: 0.5rem; /* Rounded corners */
+}
+
+.card-text {
+  padding: 1rem 1.25rem;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  min-height: calc(1.4em * 4); /* approx 4 lines of text */
+  color: #333;
 }
 
 .main-display h1,
