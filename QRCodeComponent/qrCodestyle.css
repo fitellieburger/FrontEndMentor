@@ -7,52 +7,46 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  height: 100 vh;
+  box-sizing: border-box;
   background-color: #9bc9d4;
   color: #333;
   padding: 1rem;
 }
 
-/* Grid Layout */
-.grid-3x3 {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr;
-  gap: 1rem;
+/* Card */
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 
 
 /* Center display area */
-.main-display {
-  grid-column: 2;
-  grid-row: 2;
+.card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 
+  max-width: 90vw;
+  width: 100%;
+  max-height: 90vh;
   display: flex;
   flex-direction: column;
-
-  /* Limit width roughly to a phone screen */
-  max-width: 360px;       /* Typical phone screen width in CSS pixels */
-  width: 90vw;            /* Responsive fallback: 90% of viewport width */
-   
-
-  align-items: top;
-  justify-content: center;
-  text-align: center;
-
-  /* If content overflows vertically, scroll */
-  overflow-y: auto;
-
-  padding: 2rem;
-  background-color: #ffffff;
-  border: 1px solid #c7e0f5;
-  border-radius: 1rem;
+  align-items: center;
 }
 
-.main-display img {
+.card img {
   width: 100%;            /* Responsive image */
   height: auto;          /* Maintain aspect ratio */
   border-radius: 0.5rem; /* Rounded corners */
+  aspect-ratio: 1 / 1;  /* keeps it square */
+  object-fit: cover; /* Cover the area without stretching */
 }
 
 .card-text {
@@ -64,12 +58,15 @@ body {
   color: #333;
 }
 
-.main-display h1,
-.main-display p {
-  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+.card-caption{
+  padding: 1rem;
+  text-align: center;
   font-size: 1rem;
-  margin: 0.5rem 0;
-  
+  line-height: 1.4;
+  color: #333;
+  max-height: calc(1.4em * 4); /* fits ~4 lines */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Make the h1 visually stronger */
