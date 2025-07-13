@@ -31,9 +31,18 @@ body {
   display: flex;
   flex-direction: column;
 
+  /* Limit width roughly to a phone screen */
+  max-width: 360px;       /* Typical phone screen width in CSS pixels */
+  width: 90vw;            /* Responsive fallback: 90% of viewport width */
+  /* Limit height to about 3 inches */
+  max-height: 3in;   
+
   align-items: center;
   justify-content: center;
   text-align: center;
+
+  /* If content overflows vertically, scroll */
+  overflow-y: auto;
 
   padding: 2rem;
   background-color: #ffffff;
@@ -41,15 +50,21 @@ body {
   border-radius: 1rem;
 }
 
-.centered-content h1,
-.centered-content p {
+.main-display img {
+  width: 100%;            /* Responsive image */
+  height: auto;          /* Maintain aspect ratio */
+  border-radius: 0.5rem; /* Rounded corners */
+}
+
+.main-display h1,
+.main-display p {
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   font-size: 1rem;
   margin: 0.5rem 0;
 }
 
 /* Make the h1 visually stronger */
-.centered-content h1 {
+.main-display h1 {
   font-weight: 700;           /* Bold */
   letter-spacing: 0.5px;      /* Slight emphasis */
   
