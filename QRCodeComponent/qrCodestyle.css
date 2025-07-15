@@ -38,11 +38,10 @@ body {
 }
 
 .card-layers {
-  position: relative;      /* positioning context for peek-image and card */
-  width: min(90vw, 320px);  /* responsive but maxes out */
-  
-
-  overflow: visible;
+  position: relative;
+  width: 90vw;
+  max-width: 320px;
+  margin-top: 80px;
 }
 
 
