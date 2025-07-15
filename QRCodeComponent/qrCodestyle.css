@@ -48,6 +48,7 @@ body {
 
   max-width: 20vw;
   width: 20vw; /* Responsive width */
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
  
 
   padding: .5rem;
@@ -63,15 +64,13 @@ body {
 /* Peek Image */
 .peek-image {
   position: absolute;
-  top: 200px;
+  top: -40px;
   left: 50%;
   width: calc(100% + 40px); /* just wider than the card */
-  max-width: 360px;         /* safe max for mobile */
-  border: 3px solid red;
+  max-width: 360px;         /* safe max for mobile */  
   
-  
-  opacity: 0;
-  z-index: 0;
+  opacity: 1;
+  z-index: 1;
 
   transform: translate(-50%, 20%) scale(0.5); /* hidden and small */
   animation: popUpFromCard 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s forwards;
@@ -83,7 +82,7 @@ body {
     opacity: 0;
   }
   100% {
-    transform: translate(-50%, -10%) scale(1);
+    transform: translate(-50%, 0%) scale(1);
     opacity: 1;
   }
 }
