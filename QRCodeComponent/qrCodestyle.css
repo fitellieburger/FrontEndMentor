@@ -63,7 +63,7 @@ body {
 /* Peek Image */
 .peek-image {
   position: absolute;
-  top: 0;
+  top: 50px;
   left: 50%;
   width: calc(100% + 40px); /* just wider than the card */
   max-width: 360px;         /* safe max for mobile */
@@ -83,7 +83,7 @@ body {
     opacity: 0;
   }
   100% {
-    transform: translate(-50%, -90%) scale(1);
+    transform: translate(-50%, -10%) scale(1);
     opacity: 1;
   }
 }
