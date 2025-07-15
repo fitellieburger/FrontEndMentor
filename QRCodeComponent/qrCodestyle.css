@@ -39,11 +39,8 @@ body {
 
 .card-layers {
   position: relative;      /* positioning context for peek-image and card */
-  width: 20vw;
-  max-width: 320px;
-  width: 20vw;
-  max-width: 320px;
-  /* height will be defined by .card content */
+  width: min(90vw, 320px);  /* responsive but maxes out */
+  
 
   overflow: visible;
 }
@@ -59,8 +56,7 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 
-  max-width: 20vw;
-  width: 20vw; /* Responsive width */
+  width: 100%;
   box-shadow: 0 8px 24px rgba(0,0,0,0.15);
  
 
@@ -82,7 +78,7 @@ body {
   position: absolute;
   top: 0px;
   left: 50%;
-  width: calc(100% + 40px); /* just wider than the card */
+  width: 110%;
   max-width: 360px;         /* safe max for mobile */  
   
   opacity: 0;
