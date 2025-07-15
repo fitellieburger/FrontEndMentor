@@ -67,7 +67,7 @@ body {
   align-items: center;
   justify-content: flex-start;
 
-  z-index: 2;              /* above peek-image */
+  z-index:0;              /* above peek-image */
 
 }
 
