@@ -63,7 +63,7 @@ body {
 /* Peek Image */
 .peek-image {
   position: absolute;
-  top: 80px;
+  top: 200px;
   left: 50%;
   width: calc(100% + 40px); /* just wider than the card */
   max-width: 360px;         /* safe max for mobile */
