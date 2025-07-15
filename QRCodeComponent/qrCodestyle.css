@@ -12,6 +12,8 @@ body {
   background-color: #9bc9d4;
   color: #333;
   padding: 1rem;
+
+  overflow-x: hidden;
 }
 
 .background {
@@ -37,9 +39,11 @@ body {
 
 .card-layers {
   position: relative;      /* positioning context for peek-image and card */
-  width: 320px;            /* or whatever fixed/responsive width you want */
+  width: 20vw;            /* or whatever fixed/responsive width you want */
    margin: 40px auto 0 auto; /* pushes card-layers down */
   /* height will be defined by .card content */
+
+  overflow: visible;
 }
 
 
@@ -67,7 +71,7 @@ body {
   align-items: center;
   justify-content: flex-start;
 
-  z-index:2;              /* above peek-image */
+  z-index: 2;              /* above peek-image */
 
 }
 
