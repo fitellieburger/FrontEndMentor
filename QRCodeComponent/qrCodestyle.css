@@ -35,17 +35,7 @@ body {
   box-sizing: border-box;
 }
 
-/* peek image animation */
-@keyframes slideDownPeek {
-  0% {
-    transform: translate(-50%, -150%);
-    opacity: 0;
-  }
-  100% {
-    transform: translate(-50%, -20%);
-    opacity: 1;
-  }
-}
+
 
 /* Peek Image */
 .peek-image {
@@ -54,11 +44,23 @@ body {
   left: 50%;
   width: calc(100% + 40px); /* just wider than the card */
   max-width: 360px;         /* safe max for mobile */
-  transform: translate(-50%, -40%);
+  
   opacity: 0;
   z-index: 0;
 
+  transform: translate(-50%, 20%) scale(0.5); /* hidden and small */
   animation: slideDownPeek 1s ease-out 0.2s forwards;
+}
+
+@keyframes popUpFromCard {
+  0% {
+    transform: translate(-50%, 20%) scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -30%) scale(1);
+    opacity: 1;
+  }
 }
 
 
