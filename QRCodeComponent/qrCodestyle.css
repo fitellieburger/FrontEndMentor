@@ -35,6 +35,13 @@ body {
   box-sizing: border-box;
 }
 
+.card-layers {
+  position: relative;      /* positioning context for peek-image and card */
+  width: 320px;            /* or whatever fixed/responsive width you want */
+  margin: 0 auto;          /* center horizontally */
+  /* height will be defined by .card content */
+}
+
 
 
 /* Center display area */
@@ -59,6 +66,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+
+  z-index: 2;              /* above peek-image */
+
 }
 
 /* Peek Image */
