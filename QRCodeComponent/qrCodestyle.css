@@ -68,6 +68,7 @@ body {
   width: calc(100% + 40px); /* just wider than the card */
   max-width: 360px;         /* safe max for mobile */
   border-color: red;
+  border-width: 2px;
   
   opacity: 0;
   z-index: 0;
