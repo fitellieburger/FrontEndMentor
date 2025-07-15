@@ -37,10 +37,33 @@ body {
 
 
 
+/* Center display area */
+.card {
+  position: relative;
+
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+
+  max-width: 20vw;
+  width: 20vw; /* Responsive width */
+ 
+
+  padding: .5rem;
+  gap: 0.5rem;
+  box-sizing: border-box;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 /* Peek Image */
 .peek-image {
   position: absolute;
-  top: 1rem;
+  
   left: 50%;
   width: calc(100% + 40px); /* just wider than the card */
   max-width: 360px;         /* safe max for mobile */
@@ -63,27 +86,6 @@ body {
   }
 }
 
-
-/* Center display area */
-.card {
-  background: white;
-  border-radius: 1rem;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-
-  max-width: 20vw;
-  width: 20vw; /* Responsive width */
- 
-
-  padding: .5rem;
-  gap: 0.5rem;
-  box-sizing: border-box;
- 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
 
 .qr-code {
   display: block;
