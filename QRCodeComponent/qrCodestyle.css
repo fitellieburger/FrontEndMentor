@@ -54,7 +54,7 @@ body {
   left: 50%;
   width: calc(100% + 40px); /* just wider than the card */
   max-width: 360px;         /* safe max for mobile */
-  transform: translate(-50%, -150%);
+  transform: translate(-50%, -40%);
   opacity: 0;
   z-index: 0;
 
