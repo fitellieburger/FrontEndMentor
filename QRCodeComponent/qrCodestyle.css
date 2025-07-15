@@ -39,8 +39,10 @@ body {
 
 .card-layers {
   position: relative;      /* positioning context for peek-image and card */
-  width: 20vw;            /* or whatever fixed/responsive width you want */
-   margin: 40px auto 0 auto; /* pushes card-layers down */
+  width: 20vw;
+  max-width: 320px;
+  width: 20vw;
+  max-width: 320px;
   /* height will be defined by .card content */
 
   overflow: visible;
