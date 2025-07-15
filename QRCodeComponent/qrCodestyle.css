@@ -34,6 +34,16 @@ body {
   box-sizing: border-box;
 }
 
+/* Peek Image */
+.peek-image {
+  position: absolute;
+  top: -40px; /* how much it peeks out */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;  /* adjust as needed */
+  height: auto;
+  z-index: 2;
+}
 
 
 /* Center display area */
