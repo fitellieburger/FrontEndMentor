@@ -84,17 +84,17 @@ body {
   opacity: 0;
   z-index: 1;
 
-  transform: translate(-50%, 100%) scale(0.5); /* hidden and small */
+  transform: translate(-50%, 10%) scale(0.5); /* hidden and small */
   animation: popUpFromCard 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s forwards;
 }
 
 @keyframes popUpFromCard {
   0% {
-    transform: translate(-50%, 100%) scale(0.5);
+    transform: translate(-50%, 10%) scale(0.5);
     opacity: 0;
   }
   100% {
-    transform: translate(-50%, -30%) scale(1);
+    transform: translate(-50%, -60%) scale(1);
     opacity: 1;
   }
 }
