@@ -39,8 +39,8 @@ body {
 
 .card-layers {
   position: relative;
-  width: 90vw;
-  max-width: 320px;
+  width: 100%;
+  max-width: 260px; /* Smaller, cuter */
   margin-top: 80px;
 }
 
@@ -75,7 +75,7 @@ body {
 /* Peek Image */
 .peek-image {
   position: absolute;
-  top: 0px;
+  top: -40px;
   left: 50%;
   width: 110%;
   max-width: 360px;         /* safe max for mobile */  
