@@ -55,10 +55,11 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 
-  width: 100%;
-  max-width: 260px;      /* small, cute width */
-  max-height: 288px;     /* ~3 inches */
-  height: auto;          /* allow height to shrink/grow with content */
+  max-height: 288px;   /* ~3 inches */
+  aspect-ratio: 4 / 5; /* width / height ratio you want */
+  
+  width: auto;         /* width adapts automatically */
+  max-width: 260px;    /* caps max width */
   box-shadow: 0 8px 24px rgba(0,0,0,0.15);
  
 
@@ -96,7 +97,7 @@ body {
     opacity: 0;
   }
   100% {
-    transform: translate(-50%, -60%) scale(1);
+    transform: translate(-50%, -70%) scale(1);
     opacity: 1;
   }
 }
