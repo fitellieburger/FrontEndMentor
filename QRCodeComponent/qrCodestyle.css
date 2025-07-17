@@ -1,13 +1,13 @@
 /* Fonts */
 @font-face {
-  font-family: 'CestVifRound';
+  font-family: 'CestvifRound';
   src: url('./fonts/CestvifRound-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'CestVifNaughty';
+  font-family: 'CestvifNaughty';
   src: url('./fonts/CestvifNaughty-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
