@@ -175,7 +175,7 @@ body {
   display: inline-block;    /* required for transform to work correctly */
   /* Adjust pivot point: rotate around center bottom */
   transform-origin: center bottom;
-  margin-top: -0.3rem;        
+  margin-top: -0.7rem;        
 }
 
 /* Make the h1 visually stronger */
@@ -196,6 +196,7 @@ body {
 /* Make the h1 visually stronger */
 .card-subtitle{
   text-align: center;
+  margin-top: -0.3rem;
 
   font-family: 'KGSketch', sans-serif; /* Use custom font */
   font-size: 1.5rem;
