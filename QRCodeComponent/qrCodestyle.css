@@ -1,3 +1,26 @@
+/* Fonts */
+@font-face {
+  font-family: 'CestVifRound';
+  src: url('./fonts/CestvifRound-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CestVifNaughty';
+  src: url('./fonts/CestvifNaughty-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KGSketch';
+  src: url('./fonts/KGSecondChancesSketch.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 /* Reset + base styles */
 * {
   margin: 0;
@@ -125,6 +148,8 @@ body {
 .card-caption{
   padding: 1rem;
   text-align: center;
+
+  font-family: 'CestVifRound', sans-serif; /* Use custom font */
   font-size: 1rem;
   line-height: 1.4;
   color: #333;
@@ -136,6 +161,8 @@ body {
 /* Make the h1 visually stronger */
 .card-title{
   text-align: center;
+
+  font-family: 'KGSketch', sans-serif; /* Use custom font */
   font-size: 1rem;
   font-weight: 700;           /* Bold */
   letter-spacing: 0.5px;      /* Slight emphasis */
