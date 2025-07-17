@@ -173,6 +173,9 @@ body {
   /* NEW: angle the text */
   transform: rotate(-5deg); /* try -5 to 5 degrees */
   display: inline-block;    /* required for transform to work correctly */
+  /* Adjust pivot point: rotate around center bottom */
+  transform-origin: center bottom;
+  margin-top: -0.3rem;        
 }
 
 /* Make the h1 visually stronger */
