@@ -55,7 +55,6 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 
-  aspect-ratio: 4 / 5; /* width / height ratio you want */
   
   width: auto;         /* width adapts automatically */
   max-width: 260px;    /* caps max width */
