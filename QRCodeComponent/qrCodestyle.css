@@ -186,7 +186,22 @@ body {
 
    
   color: #ec8917; 
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* x, y, blur, color */
+  text-shadow: 2px 2px 0 black;
+  
+}
+
+/* Make the h1 visually stronger */
+.card-subtitle{
+  text-align: center;
+
+  font-family: 'KGSketch', sans-serif; /* Use custom font */
+  font-size: 1.5rem;
+  font-weight: 700;           /* Bold */
+  letter-spacing: 0.5px;      /* Slight emphasis */
+
+   
+  color: #ec8917; 
+  text-shadow: 2px 2px 0 black;
   
 }
 
