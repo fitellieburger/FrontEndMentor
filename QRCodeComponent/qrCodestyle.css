@@ -189,3 +189,15 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* x, y, blur, color */
   
 }
+
+.card-image-below {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.card-image-below img {
+  width: 100%;
+  max-width: 260px; /* Match the card width */
+  
+}
