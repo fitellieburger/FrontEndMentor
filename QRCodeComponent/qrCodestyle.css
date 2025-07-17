@@ -1,21 +1,21 @@
 /* Fonts */
 @font-face {
   font-family: 'CestVifRound';
-  src: url('./fonts/CestvifRound-Regular.otf') format('otf');
+  src: url('./fonts/CestvifRound-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'CestVifNaughty';
-  src: url('./fonts/CestvifNaughty-Regular.otf') format('otf');
+  src: url('./fonts/CestvifNaughty-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'KGSketch';
-  src: url('./fonts/KGSecondChancesSketch.ttf') format('ttf');
+  src: url('./fonts/KGSecondChancesSketch.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
