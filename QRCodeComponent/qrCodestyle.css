@@ -140,7 +140,6 @@ body {
 
 .pemdas-logo {
   width: 100%;
-  max-width: 240px;
   max-width: 100%;            /* Responsive image */
   height: auto;
   border-radius: 0.5rem; /* Rounded corners */
@@ -200,7 +199,7 @@ body {
   letter-spacing: 0.5px;      /* Slight emphasis */
   margin-bottom: 1rem; /* Space below title */
    
-  color: #ec8917; 
+  color: #db6607; 
   text-shadow: 2px 2px 0 black;
   
 }
