@@ -137,6 +137,17 @@ body {
   margin-bottom: 0.25rem; /* visual space between image and text */
   flex-shrink: 1;
 }
+.pemdas-logo {
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+  border-radius: 0.5rem; /* Rounded corners */
+  aspect-ratio: 1 / 1;  /* keeps it square */
+  object-fit: contain; /* keep whole image visible */
+  margin-bottom: 0.25rem; /* visual space between image and text */
+  flex-shrink: 1;
+}
+
 
 .card-text {
   font-size: 1rem;
