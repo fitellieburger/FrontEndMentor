@@ -244,7 +244,7 @@ body {
   justify-content: center;
   text-align: center;
 
-  margin-top: -10%; /* pull the image up */
+  margin-top: -20%; /* pull the image up */
   z-index: 2;
   position: relative;
 
