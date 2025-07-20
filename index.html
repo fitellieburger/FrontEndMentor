@@ -32,6 +32,20 @@
       </div> 
       <div class="card-image-below">
         <img src="./QRCodeComponent/images/Tiger.png" alt="This PEMDA is a Tiger!" />
+        
+        <div class="card-button-row">
+          <button class="image-button" onclick="changeBelowImage('./QRCodeComponent/images/Tiger2.png')">
+            <img src="./QRCodeComponent/images/Diamond Necklace.png" alt="Diamond Necklace">
+          </button>
+          <button class="image-button" onclick="changeBelowImage('QRCodeComponent/images/Tiger.png')">
+            <img src="./QRCodeComponent/images/Cinnamon Roll.png" alt="Cinnamon Roll">
+          </button>
+  
+        </div>
+      
+        <button class="text-button" onclick="window.open('https://yourlink.com', '_blank')">
+          Read Our Privacy Policy
+        </button>
       </div>
     </div>
     
@@ -50,3 +64,12 @@
   <p>&copy;2025 CestVifStudio. All rights reserved.</p>
 </footer>
 </html>
+
+<script>
+  function changeBelowImage(newSrc) {
+    const img = document.querySelector('.card-image-below img');
+    if (img) {
+      img.src = newSrc;
+    }
+  }
+</script>
