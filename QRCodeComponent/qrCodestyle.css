@@ -244,7 +244,7 @@ body {
   justify-content: center;
   text-align: center;
 
-  margin-top: -20%; /* pull the image up */
+  margin-top: -10%; /* pull the image up */
   z-index: 2;
   position: relative;
 
@@ -310,7 +310,7 @@ body {
   background-color: #edfc1e;
   color: black;
   font-family: 'KGSketch', sans-serif;
-  font-size: 1.1rem;
+  font-size: .8rem;
   font-weight: bold;
   padding: 0.75rem 1rem;
   border: none;
