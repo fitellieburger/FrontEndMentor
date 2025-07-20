@@ -35,6 +35,7 @@ body {
   background-color: #9bc9d4;
   color: #333;
   padding: 1rem;
+  padding-top: 3rem; /* Optional breathing room */
 
   overflow-x: hidden;
 }
@@ -302,6 +303,12 @@ body {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .link-button-row {
+    margin-bottom: 5rem; /* more breathing room on small screens */
+  }
 }
 
 .text-button {
