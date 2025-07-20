@@ -162,12 +162,10 @@ body {
 
 
 .card-caption-1{
-  padding: 1rem;
   text-align: center;
 
   font-family: 'CestVifRound', sans-serif; /* Use custom font */
   font-size: 1.7rem;
-  line-height: 1.2;
   color: #333;
   
   overflow: hidden;
@@ -232,7 +230,7 @@ body {
 }
 
 .card-image-below img {
-  width: 100%;
+  width: 80%;
   max-width: 260px; /* Match the card width */
   
 }
