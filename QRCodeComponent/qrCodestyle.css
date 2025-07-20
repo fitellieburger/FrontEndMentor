@@ -146,6 +146,11 @@ body {
   object-fit: contain; /* keep whole image visible */
   margin-bottom: 0.25rem; /* visual space between image and text */
   flex-shrink: 1;
+
+  margin-top: -1.5rem;     /* Pull upward to overlap */
+  margin-bottom: 0.25rem;  /* Space below */
+  z-index: 2;              /* Ensure it's above previous element */
+  position: relative;      /* Needed for z-index to work */
 }
 
 
