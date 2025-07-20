@@ -225,6 +225,7 @@ body {
 .card-image-below {
   display: flex;
   justify-content: center;
+  text-align: center;
   margin-top: 1rem;
 
 
@@ -243,8 +244,6 @@ body {
   justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
-  flex-wrap: wrap;
-  width: 100%;
 }
 
 /* === IMAGE BUTTONS === */
@@ -277,10 +276,18 @@ body {
 }
 
 /* === LINK BUTTON === */
+
+/* Row of full-width yellow text button */
+.link-button-row {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
 .text-button {
   width: 100%;
   max-width: 260px; /* match card width */
-  background-color: #d3fc1e;
+  background-color: #edfc1e;
   color: black;
   font-family: 'KGSketch', sans-serif;
   font-size: 1.1rem;
