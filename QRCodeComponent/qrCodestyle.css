@@ -140,6 +140,7 @@ body {
 .pemdas-logo {
   width: 100%;
   max-width: 240px;
+  max-width: 100%;            /* Responsive image */
   height: auto;
   border-radius: 0.5rem; /* Rounded corners */
   aspect-ratio: 1 / 1;  /* keeps it square */
