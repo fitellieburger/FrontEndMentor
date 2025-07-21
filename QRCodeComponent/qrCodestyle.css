@@ -64,7 +64,7 @@ body {
 /* Mobile layout shift */
 @media (max-width: 600px) {
   .card-wrapper {
-    padding-top: 4rem; /* Push entire section down */
+    padding-top: 8rem; /* Push entire section down */
   }
 }
 
