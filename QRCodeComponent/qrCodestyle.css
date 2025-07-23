@@ -61,12 +61,7 @@ body {
   box-sizing: border-box;
 }
 
-/* Mobile layout shift */
-@media (max-width: 600px) {
-  .card-wrapper {
-    padding-top: 8rem; /* Push entire section down */
-  }
-}
+
 
 .card-layers {
   position: relative;
@@ -75,6 +70,12 @@ body {
   margin-top: 80px;
 }
 
+/* Mobile layout shift */
+@media (max-width: 600px) {
+  .card-layers {
+    padding-top: 8rem; /* Push entire section down */
+  }
+}
 
 
 /* Center display area */
