@@ -70,7 +70,11 @@ body {
   margin-top: 80px;
 }
 
-
+@media (max-width: 600px) {
+  .card-layers {
+    margin-top: 120px; /* Increase as needed for more space */
+  }
+}
 
 
 /* Center display area */
